@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="index.css" />
+    <style>
+      body {
+        min-width: 300px;
+        min-height: 100px;
+        padding: 20px;
+        font-family: "Times New Roman", Times, serif;
+        font-size: 15px;
+      }
+
+      #save-btn {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 200px;
+        height: 50px;
+        background-color: #3fc944;
+        color: white;
+        font-size: 18px;
+        font-weight: bold;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+        margin: 0 auto;
+
+        top: 20px;
+        left: 0;
+        right: 0;
+      }
+      #save-btn:hover {
+        background-color: #38a93f; /* Change the background color on hover */
+      }
+      #question-container {
+        margin-top: 60px;
+        font-size: 1rem;
+        font-style: italic;
+      }
+      #spinner {
+        display: none;
+        align-self: center;
+        position: absolute;
+        top: 70%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+      }
+    </style>
+  </head>
+  <body width="300px">
+    <div id="button-container">
+      <button id="save-btn">Generate MCQ Questions</button>
+      <div id="spinner">
+        <img src="Spinner1.gif" alt="Loading spinner" />
+      </div>
+    </div>
+    <div id="question-container"></div>
+    <script src="index.js"></script>
+  </body>
+</html>
+
+<!-- <div id="question-container">
+  <h2>5 MCQ Based On The Text You Selected</h2>
+  <br />1) What is the main function of an Operating System?<br />a) To
+  manage computer resources<br />b) To create computer programs<br />c) To
+  design computer hardware<br />d) To provide internet connectivity<br />Answer:
+  a<br /><br />2) Which of the following is an example of an Operating
+  System?<br />a) Microsoft Office<br />b) Photoshop<br />c) Windows<br />d)
+  Google Chrome<br />Answer: c<br /><br />3) What is the role of an
+  Operating System in a computer system?<br />a) Monitor execution of all
+  programs<br />b) Provide common services for computer programs<br />c)
+  Manage hardware resources<br />d) All of the above<br />Answer: d<br /><br />4)
+  What category of software does an Operating System belong to?<br />a)
+  System software<br />b) Application software<br />c) Web-based software<br />d)
+  Database software<br />Answer: a<br /><br />5) Which of the
+  following is not an example of an Operating System?<br />a) iOS<br />b)
+  Android<br />c) Microsoft Excel<br />d) Ubuntu<br />Answer: c
+</div> -->
